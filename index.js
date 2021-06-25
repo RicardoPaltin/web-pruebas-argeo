@@ -54,7 +54,7 @@ function initMap() {
 
         marker.setAnimation(google.maps.Animation.BOUNCE);
         
-        const contentString = "Posición actual"
+        const contentString = "lat: " + + pos.lat + " log: " + pos.lng
 
         const infowindow = new google.maps.InfoWindow({
           content: contentString,
